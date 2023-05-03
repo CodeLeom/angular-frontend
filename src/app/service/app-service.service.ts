@@ -7,7 +7,7 @@ import { Observable, Subject, tap } from 'rxjs';
 })
 export class AppServiceService {
  
-  private baseUrl = 'https://openfabric-backend.onrender.com/';
+  private baseUrl = 'https://openfabric-backend.onrender.com';
   constructor(private http: HttpClient) { }
 
   private _refreshrequired = new Subject<void>()
